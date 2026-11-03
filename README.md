@@ -21,7 +21,7 @@ cd "E:\4th year twikker\twikker-risk"
 
 The first run installs the packages into a `.venv` folder next to the app. That takes a few minutes, and after that the app starts in seconds at http://localhost:8501. Press Ctrl+C in the window to stop it.
 
-The app needs its own `.venv` because it uses Streamlit 1.64, and the Python on the C: drive has 1.36, which can't open pages from a link or a refresh. The C: drive is also almost full, which is why `.venv` lives on E:.
+The app needs its own `.venv` because it uses Streamlit 1.66, and the Python on the C: drive has 1.36, which can't open pages from a link or a refresh. The C: drive is also almost full, which is why `.venv` lives on E:.
 
 **Avast note:** Avast's HTTPS scanning re-signs every website's certificate. Python doesn't trust Avast's certificate by default, so the app adds the Windows certificate store when it downloads prices (see `market.py`). Without that, every price download fails with "unable to get local issuer certificate".
 
