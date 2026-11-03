@@ -1,0 +1,98 @@
+{
+  "fund_name": "Twikker Fund - Long Term Fund",
+  "tier_limits": {
+    "source": "Position-size guide from the 26/27 portfolio reviews (Tier 1 > £1bn, Tier 2 £500m-£1bn, Tier 3 £250m-£500m, Tier 4 < £250m)",
+    "max_weight": {"1": 0.143, "2": 0.0715, "3": 0.051, "4": 0.05},
+    "max_buy": {"1": 10000, "2": 5000, "3": 4000, "4": 3500}
+  },
+  "divisions": {
+    "defensive": {
+      "name": "Defensive",
+      "color": "#eda100",
+      "tagline": "Low-volatility income: gilts, Treasuries, credit, utilities and metals",
+      "lead": "John Bailey (Head of Defensive)",
+      "risk_contact": "Marissa",
+      "analysts": ["Carlos Casado Garcia", "Areeba Ahmed", "Katherine Vaughan", "Marissa Law", "David Chiropa", "Rachel"],
+      "source": "26/27 Defensive Portfolio Review",
+      "as_of": "2026-10-20",
+      "benchmark": "FTSE All-Share",
+      "mandate": {
+        "beta_range": [0.5, 0.8],
+        "yield_range": [4.0, 6.0],
+        "rules": [
+          "Target beta 0.50-0.80 (defensive / low volatility)",
+          "Target dividend yield 4-6%",
+          "Zero tolerance for oil, arms, tobacco or animal testing (pharma exception)",
+          "No shorting"
+        ]
+      },
+      "data_notes": [
+        "The report has no cash balance, so cash is not included.",
+        "The report's holdings table (page 3) is a leftover from an older template. Holdings are taken from the October pages 4-8.",
+        "IGTM, National Grid, United Utilities and MVEW have values that match old-table numbers to the penny. Please confirm them with the division.",
+        "The two gilts are priced with gilt ETFs (GLTL, IGLS) as stand-ins, and their durations are estimates.",
+        "Gold Bullion Securities (GBSS) has almost no price history on Yahoo, so iShares Physical Gold (SGLN) stands in for the gold price."
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "color": "#1baf7a",
+      "tagline": "Global quality growth: technology, healthcare and compounders",
+      "lead": "Growth division",
+      "risk_contact": "Kat",
+      "analysts": [],
+      "source": "Growth risk sheet (Portfolio Overview, Nov 2026)",
+      "as_of": "2026-11-02",
+      "benchmark": "MSCI World (URTH)",
+      "mandate": {"rules": ["Long-term capital growth"]},
+      "data_notes": [
+        "Values come from the Growth risk sheet, which matches the 26/27 Growth review where they overlap.",
+        "'Hewl Pack' is assumed to be Hewlett Packard Enterprise (HPE).",
+        "Polar Capital Global Insurance is an open-ended fund with no Yahoo ticker, so KIE (a US insurance ETF) stands in for its price moves.",
+        "Cost is only known for the 8 holdings the review reported a profit % for."
+      ]
+    },
+    "income": {
+      "name": "Income",
+      "color": "#1f5fbf",
+      "tagline": "Sustainable dividends with long-term capital growth",
+      "lead": "Income division",
+      "risk_contact": "Harry",
+      "analysts": [],
+      "source": "Portfolio Overview 10/26",
+      "as_of": "2026-10-26",
+      "benchmark": "FTSE All-Share",
+      "mandate": {
+        "yield_range": [4.0, 6.0],
+        "rules": ["Focus on income and long-term capital growth", "Aim to diversify into Asia and other emerging markets in 2027"]
+      },
+      "data_notes": [
+        "The report's total is £73,247, but the rows add up to £73,249 (rounding).",
+        "The Barclays slide repeats Foresight Solar's figures, so no yield is used for Barclays."
+      ]
+    },
+    "yorkshire": {
+      "name": "Yorkshire",
+      "color": "#c2185b",
+      "tagline": "UK small and mid caps within 100 miles of Sheffield",
+      "lead": "Louie (Head of Yorkshire)",
+      "risk_contact": "Luke",
+      "analysts": ["Adesh", "Alex", "Lola", "Luke", "Luke", "Cameron"],
+      "source": "Yorkshire Fund Portfolio Overview",
+      "as_of": "2026-10-20",
+      "benchmark": "FTSE 250",
+      "regional": true,
+      "mandate": {
+        "rules": [
+          "Companies within a 100-mile radius of Sheffield",
+          "Trim exposure to microcap / Tier 4 companies",
+          "Deploy cash into larger caps to stabilise the fund"
+        ]
+      },
+      "data_notes": [
+        "Holdings, costs and market-cap tiers come from the report's holdings table and tier breakdown (Tier 4 = 36.0% of the fund).",
+        "The cover says 18 holdings, but the holdings table lists 14 plus cash."
+      ]
+    }
+  }
+}

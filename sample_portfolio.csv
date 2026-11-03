@@ -1,0 +1,17 @@
+Company name,Ticker,Value invested,Sector,Industry,Region,Market,Asset class,Currency,FX exposure,Yield,Duration,Cost,Tier,Notes
+AbbVie,ABBV,7844,Healthcare,Pharma,North America (USA),NYSE,Equity,USD,USD,2.8,,3692,,
+Aviva,AV.L,7155,Financials,Insurance,Europe (UK),LSE,Equity,GBP,GBP,5.7,,5104,,
+Befesa,BFSA.DE,3828,Industrials,Industrials,Europe (Luxembourg),XETRA,Equity,EUR,EUR,2.78,,4005,,
+Barclays,BARC.L,3133,Financials,Banking,Europe (UK),LSE,Equity,GBP,GBP,,,2995,,The Barclays slide repeats Foresight Solar's yield and value so no yield is used
+Crédit Agricole,ACA.PA,5703,Financials,Banking,Europe (France),Euronext Paris,Equity,EUR,EUR,7.45,,6109,,
+Foresight Solar,FSFL.L,3919,Utilities,Infra / Renewables,Europe (UK),LSE,Equity,GBP,GBP,6.33,,4131,,
+INPP,INPP.L,3898,Industrials,Infra / Renewables,Europe (UK),LSE,Equity,GBP,GBP,6.31,,4007,,
+Legal & General,LGEN.L,2684,Financials,Insurance,Europe (UK),LSE,Equity,GBP,GBP,,,2256,,
+Morgan Sindall,MGNS.L,4707,Industrials,Industrials,Europe (UK),LSE,Equity,GBP,GBP,,,5019,,
+NatWest,NWG.L,6992,Financials,Banking,Europe (UK),LSE,Equity,GBP,GBP,4.88,,5174,,
+Polar Capital Holdings,POLR.L,1507,Financials,Asset Mgmt,Europe (UK),LSE,Equity,GBP,GBP,6.12,,1505,,
+Standard Life,SDLF.L,3428,Financials,Insurance,Europe (UK),LSE,Equity,GBP,GBP,6.2,,2578,,Formerly Phoenix Group (PHNX.L)
+Unilever,ULVR.L,3027,Consumer,FMCG,Europe (UK),LSE,Equity,GBP,GBP,3.51,,2816,,
+Vanguard ESG EUR Corporate Bond,V3RE.L,2916,Fixed Income,Bond ETF,Europe (Eurozone),LSE,Corporate bond,GBP,EUR,4.3,4.4,3000,,Yield is yield to maturity; duration 4.4 years from the report
+Verizon,VZ,5165,Communication Services,Telecoms,North America (USA),NYSE,Equity,USD,USD,5.45,,5585,,
+Cash,,7343,Cash,Cash,UK (GBP),N/A,Cash,GBP,GBP,,,,,

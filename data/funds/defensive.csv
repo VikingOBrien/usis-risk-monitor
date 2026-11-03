@@ -1,0 +1,11 @@
+Company name,Ticker,Value invested,Sector,Industry,Region,Market,Asset class,Currency,FX exposure,Yield,Duration,Cost,Tier,Notes
+UK Gilt 1.625% 2071 (TG71),GLTL.L,4981,Fixed Income,UK gilts (long),Europe (UK),LSE,Government bond,GBP,GBP,4.6,21,5771.73,,Priced using GLTL.L (15+ year gilt ETF) as a stand-in; duration is an estimate
+UK Gilt 2028 (TR28),IGLS.L,3917,Fixed Income,UK gilts (short),Europe (UK),LSE,Government bond,GBP,GBP,5.9,2,4184.83,,Priced using IGLS.L (0-5 year gilt ETF) as a stand-in; duration is an estimate
+iShares $ Treasury 7-10yr GBP Hedged (IGTM),IGTM.L,6271.21,Fixed Income,US Treasuries (GBP hedged),North America (USA),LSE,Government bond,GBP,GBP,6.81,6.5,6109.31,,Value is identical to Credit Agricole's in the report's old table - please confirm; duration from the report (6-7% per 1%)
+Sequoia Economic Infrastructure (SEQI),SEQI.L,5480,Fixed Income,Infrastructure private credit,Global,LSE,Credit,GBP,GBP,8.1,2.3,4871.11,,Duration 2.3 years from the report
+National Grid,NG.L,6033.18,Utilities,Utilities,Europe (UK),LSE,Equity,GBP,GBP,6.3,,6644.47,,Filed under 'Corporate Bonds' in the report - confirm shares or bond; value is identical to NatWest's in the old table - please confirm
+United Utilities,UU.L,4294.47,Utilities,Utilities,Europe (UK),LSE,Equity,GBP,GBP,5.5,,4597.93,,Filed under 'Corporate Bonds' in the report - confirm shares or bond; value is identical to Standard Life's in the old table - please confirm
+iShares MSCI World Min Vol (MVEW),MVEW.L,6033.18,Diversified,Global min-vol equity ETF,Global,LSE,Equity fund,GBP,USD,0,,5175.14,,Value is identical to National Grid's - please confirm
+VanEck EM Local Currency Bond (EMGB),EMGB.L,6269,Fixed Income,EM local-currency government bonds,Emerging markets,LSE,Government bond,GBP,EM,6.78,,5399.66,,Yield is yield to maturity; underlying exposure is to emerging-market currencies
+Gold Bullion Securities (GBSS),SGLN.L,3456,Commodities,Gold,Global,LSE,Commodity,GBP,USD,0,,3381.60,,"GBSS has almost no price history on Yahoo, so SGLN.L (iShares Physical Gold) stands in for the gold price"
+Invesco Physical Silver (SLVP),SLVP.L,1440,Commodities,Silver,Global,LSE,Commodity,GBP,USD,0,,1546.72,,

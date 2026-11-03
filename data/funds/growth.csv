@@ -1,0 +1,19 @@
+Company name,Ticker,Value invested,Sector,Industry,Region,Market,Asset class,Currency,FX exposure,Yield,Duration,Cost,Tier,Notes
+Adidas,ADS.DE,2046,Consumer,Apparel,Europe (Germany),XETRA,Equity,EUR,EUR,,,,,
+Alphabet,GOOGL,2128,Communication Services,Internet,North America (USA),NASDAQ,Equity,USD,USD,,,,,
+AstraZeneca,AZN.L,6440,Healthcare,Pharma,Europe (UK),LSE,Equity,GBP,GBP,,,5930.02,,
+Coats,COA.L,4542,Consumer,Textiles,Europe (UK),LSE,Equity,GBP,GBP,,,,,
+Eli Lilly,LLY,7136,Healthcare,Pharma,North America (USA),NYSE,Equity,USD,USD,,,3953.46,,
+CNX1 (iShares Nasdaq 100),CNX1.L,5284,Technology,Nasdaq 100 ETF,Global,LSE,Equity fund,GBP,USD,,,,,GBP-quoted line of a US equity tracker so the underlying currency exposure is USD
+Fonix,FNX.L,2111,Technology,Mobile payments,Europe (UK),LSE AIM,Equity,GBP,GBP,,,,,
+Helios Towers,HTWS.L,3734,Communication Services,Telecom towers,Africa & Europe (UK),LSE,Equity,GBP,GBP,,,2975.30,,
+Hewlett Packard,HPE,6049,Technology,IT hardware,North America (USA),NYSE,Equity,USD,USD,,,,,Listed as 'Hewl Pack' - assumed Hewlett Packard Enterprise (HPE); change to HPQ if it is HP Inc
+Intercede,IGP.L,3159,Technology,Cybersecurity software,Europe (UK),LSE AIM,Equity,GBP,GBP,,,,,
+JPMorgan Chase,JPM,3024,Financials,Banking,North America (USA),NYSE,Equity,USD,USD,,,2776.86,,
+Microsoft,MSFT,8568,Technology,Software,North America (USA),NASDAQ,Equity,USD,USD,,,6000.00,,
+Polar Capital Global Insurance,KIE,4647,Financials,Insurance fund,Global,LSE,Equity fund,USD,USD,,,3793.47,,Open-ended fund with no Yahoo ticker - priced using KIE (US insurance ETF) as a stand-in
+S4 Capital,SFOR.L,3226,Communication Services,Advertising,Europe (UK),LSE,Equity,GBP,GBP,,,1719.62,,
+Scottish Mortgage,SMT.L,5635,Financials,Investment trust,Global,LSE,Equity fund,GBP,Mixed,,,,,
+TSMC,TSM,6720,Technology,Semiconductors,Asia (Taiwan),NYSE,Equity,USD,USD,,,1895.09,,
+Welltower,WELL,5046,Real Estate,Healthcare REIT,North America (USA),NYSE,Equity,USD,USD,,,,,
+Cash,,4076,Cash,Cash,UK (GBP),N/A,Cash,GBP,GBP,,,,,
